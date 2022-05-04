@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B86C41282219AE0040053B /* MyAddressBookKavsoftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C40282219AE0040053B /* MyAddressBookKavsoftApp.swift */; };
+		58B86C43282219AE0040053B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C42282219AE0040053B /* ContentView.swift */; };
+		58B86C45282219B00040053B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B86C44282219B00040053B /* Assets.xcassets */; };
+		58B86C48282219B00040053B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B86C47282219B00040053B /* Preview Assets.xcassets */; };
+		58B86C4A282219B00040053B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C49282219B00040053B /* Persistence.swift */; };
+		58B86C4D282219B00040053B /* MyAddressBookKavsoft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C4B282219B00040053B /* MyAddressBookKavsoft.xcdatamodeld */; };
+		58B86C57282219B00040053B /* MyAddressBookKavsoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C56282219B00040053B /* MyAddressBookKavsoftTests.swift */; };
+		58B86C61282219B00040053B /* MyAddressBookKavsoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C60282219B00040053B /* MyAddressBookKavsoftUITests.swift */; };
+		58B86C63282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C62282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58B86C53282219B00040053B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B86C35282219AE0040053B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B86C3C282219AE0040053B;
+			remoteInfo = MyAddressBookKavsoft;
+		};
+		58B86C5D282219B00040053B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B86C35282219AE0040053B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B86C3C282219AE0040053B;
+			remoteInfo = MyAddressBookKavsoft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B86C3D282219AE0040053B /* MyAddressBookKavsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAddressBookKavsoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B86C40282219AE0040053B /* MyAddressBookKavsoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftApp.swift; sourceTree = "<group>"; };
+		58B86C42282219AE0040053B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58B86C44282219B00040053B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B86C47282219B00040053B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58B86C49282219B00040053B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		58B86C4C282219B00040053B /* MyAddressBookKavsoft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAddressBookKavsoft.xcdatamodel; sourceTree = "<group>"; };
+		58B86C52282219B00040053B /* MyAddressBookKavsoftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAddressBookKavsoftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B86C56282219B00040053B /* MyAddressBookKavsoftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftTests.swift; sourceTree = "<group>"; };
+		58B86C5C282219B00040053B /* MyAddressBookKavsoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAddressBookKavsoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B86C60282219B00040053B /* MyAddressBookKavsoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftUITests.swift; sourceTree = "<group>"; };
+		58B86C62282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B86C3A282219AE0040053B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86C4F282219B00040053B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86C59282219B00040053B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B86C34282219AE0040053B = {
+			isa = PBXGroup;
+			children = (
+				58B86C3F282219AE0040053B /* MyAddressBookKavsoft */,
+				58B86C55282219B00040053B /* MyAddressBookKavsoftTests */,
+				58B86C5F282219B00040053B /* MyAddressBookKavsoftUITests */,
+				58B86C3E282219AE0040053B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B86C3E282219AE0040053B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C3D282219AE0040053B /* MyAddressBookKavsoft.app */,
+				58B86C52282219B00040053B /* MyAddressBookKavsoftTests.xctest */,
+				58B86C5C282219B00040053B /* MyAddressBookKavsoftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B86C3F282219AE0040053B /* MyAddressBookKavsoft */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C40282219AE0040053B /* MyAddressBookKavsoftApp.swift */,
+				58B86C42282219AE0040053B /* ContentView.swift */,
+				58B86C44282219B00040053B /* Assets.xcassets */,
+				58B86C49282219B00040053B /* Persistence.swift */,
+				58B86C4B282219B00040053B /* MyAddressBookKavsoft.xcdatamodeld */,
+				58B86C46282219B00040053B /* Preview Content */,
+			);
+			path = MyAddressBookKavsoft;
+			sourceTree = "<group>";
+		};
+		58B86C46282219B00040053B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C47282219B00040053B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58B86C55282219B00040053B /* MyAddressBookKavsoftTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C56282219B00040053B /* MyAddressBookKavsoftTests.swift */,
+			);
+			path = MyAddressBookKavsoftTests;
+			sourceTree = "<group>";
+		};
+		58B86C5F282219B00040053B /* MyAddressBookKavsoftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C60282219B00040053B /* MyAddressBookKavsoftUITests.swift */,
+				58B86C62282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift */,
+			);
+			path = MyAddressBookKavsoftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B86C3C282219AE0040053B /* MyAddressBookKavsoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B86C66282219B00040053B /* Build configuration list for PBXNativeTarget "MyAddressBookKavsoft" */;
+			buildPhases = (
+				58B86C39282219AE0040053B /* Sources */,
+				58B86C3A282219AE0040053B /* Frameworks */,
+				58B86C3B282219AE0040053B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAddressBookKavsoft;
+			productName = MyAddressBookKavsoft;
+			productReference = 58B86C3D282219AE0040053B /* MyAddressBookKavsoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58B86C51282219B00040053B /* MyAddressBookKavsoftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B86C69282219B00040053B /* Build configuration list for PBXNativeTarget "MyAddressBookKavsoftTests" */;
+			buildPhases = (
+				58B86C4E282219B00040053B /* Sources */,
+				58B86C4F282219B00040053B /* Frameworks */,
+				58B86C50282219B00040053B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B86C54282219B00040053B /* PBXTargetDependency */,
+			);
+			name = MyAddressBookKavsoftTests;
+			productName = MyAddressBookKavsoftTests;
+			productReference = 58B86C52282219B00040053B /* MyAddressBookKavsoftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58B86C5B282219B00040053B /* MyAddressBookKavsoftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B86C6C282219B00040053B /* Build configuration list for PBXNativeTarget "MyAddressBookKavsoftUITests" */;
+			buildPhases = (
+				58B86C58282219B00040053B /* Sources */,
+				58B86C59282219B00040053B /* Frameworks */,
+				58B86C5A282219B00040053B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B86C5E282219B00040053B /* PBXTargetDependency */,
+			);
+			name = MyAddressBookKavsoftUITests;
+			productName = MyAddressBookKavsoftUITests;
+			productReference = 58B86C5C282219B00040053B /* MyAddressBookKavsoftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B86C35282219AE0040053B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					58B86C3C282219AE0040053B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					58B86C51282219B00040053B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 58B86C3C282219AE0040053B;
+					};
+					58B86C5B282219B00040053B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 58B86C3C282219AE0040053B;
+					};
+				};
+			};
+			buildConfigurationList = 58B86C38282219AE0040053B /* Build configuration list for PBXProject "MyAddressBookKavsoft" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B86C34282219AE0040053B;
+			productRefGroup = 58B86C3E282219AE0040053B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B86C3C282219AE0040053B /* MyAddressBookKavsoft */,
+				58B86C51282219B00040053B /* MyAddressBookKavsoftTests */,
+				58B86C5B282219B00040053B /* MyAddressBookKavsoftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B86C3B282219AE0040053B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B86C48282219B00040053B /* Preview Assets.xcassets in Resources */,
+				58B86C45282219B00040053B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86C50282219B00040053B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86C5A282219B00040053B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B86C39282219AE0040053B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B86C4A282219B00040053B /* Persistence.swift in Sources */,
+				58B86C43282219AE0040053B /* ContentView.swift in Sources */,
+				58B86C4D282219B00040053B /* MyAddressBookKavsoft.xcdatamodeld in Sources */,
+				58B86C41282219AE0040053B /* MyAddressBookKavsoftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86C4E282219B00040053B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B86C57282219B00040053B /* MyAddressBookKavsoftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B86C58282219B00040053B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B86C61282219B00040053B /* MyAddressBookKavsoftUITests.swift in Sources */,
+				58B86C63282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58B86C54282219B00040053B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B86C3C282219AE0040053B /* MyAddressBookKavsoft */;
+			targetProxy = 58B86C53282219B00040053B /* PBXContainerItemProxy */;
+		};
+		58B86C5E282219B00040053B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B86C3C282219AE0040053B /* MyAddressBookKavsoft */;
+			targetProxy = 58B86C5D282219B00040053B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58B86C64282219B00040053B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B86C65282219B00040053B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B86C67282219B00040053B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyAddressBookKavsoft/Preview Content\"";
+				DEVELOPMENT_TEAM = V7QMN683D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B86C68282219B00040053B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyAddressBookKavsoft/Preview Content\"";
+				DEVELOPMENT_TEAM = V7QMN683D9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58B86C6A282219B00040053B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7QMN683D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAddressBookKavsoft.app/MyAddressBookKavsoft";
+			};
+			name = Debug;
+		};
+		58B86C6B282219B00040053B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7QMN683D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAddressBookKavsoft.app/MyAddressBookKavsoft";
+			};
+			name = Release;
+		};
+		58B86C6D282219B00040053B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7QMN683D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyAddressBookKavsoft;
+			};
+			name = Debug;
+		};
+		58B86C6E282219B00040053B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7QMN683D9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyAddressBookKavsoft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B86C38282219AE0040053B /* Build configuration list for PBXProject "MyAddressBookKavsoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86C64282219B00040053B /* Debug */,
+				58B86C65282219B00040053B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B86C66282219B00040053B /* Build configuration list for PBXNativeTarget "MyAddressBookKavsoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86C67282219B00040053B /* Debug */,
+				58B86C68282219B00040053B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B86C69282219B00040053B /* Build configuration list for PBXNativeTarget "MyAddressBookKavsoftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86C6A282219B00040053B /* Debug */,
+				58B86C6B282219B00040053B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B86C6C282219B00040053B /* Build configuration list for PBXNativeTarget "MyAddressBookKavsoftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B86C6D282219B00040053B /* Debug */,
+				58B86C6E282219B00040053B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58B86C4B282219B00040053B /* MyAddressBookKavsoft.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58B86C4C282219B00040053B /* MyAddressBookKavsoft.xcdatamodel */,
+			);
+			currentVersion = 58B86C4C282219B00040053B /* MyAddressBookKavsoft.xcdatamodel */;
+			path = MyAddressBookKavsoft.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58B86C35282219AE0040053B /* Project object */;
+}
