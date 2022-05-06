@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58B86C3D282219AE0040053B /* MyAddressBookKavsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAddressBookKavsoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B86C3D282219AE0040053B /* My Address Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Address Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B86C40282219AE0040053B /* MyAddressBookKavsoftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftApp.swift; sourceTree = "<group>"; };
 		58B86C42282219AE0040053B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58B86C44282219B00040053B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		58B86C3E282219AE0040053B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58B86C3D282219AE0040053B /* MyAddressBookKavsoft.app */,
+				58B86C3D282219AE0040053B /* My Address Book.app */,
 				58B86C52282219B00040053B /* MyAddressBookKavsoftTests.xctest */,
 				58B86C5C282219B00040053B /* MyAddressBookKavsoftUITests.xctest */,
 			);
@@ -190,7 +190,7 @@
 			);
 			name = MyAddressBookKavsoft;
 			productName = MyAddressBookKavsoft;
-			productReference = 58B86C3D282219AE0040053B /* MyAddressBookKavsoft.app */;
+			productReference = 58B86C3D282219AE0040053B /* My Address Book.app */;
 			productType = "com.apple.product-type.application";
 		};
 		58B86C51282219B00040053B /* MyAddressBookKavsoftTests */ = {
@@ -487,7 +487,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoft;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "My Address Book";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -516,7 +516,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.robbysuliantoro.MyAddressBookKavsoft;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "My Address Book";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
