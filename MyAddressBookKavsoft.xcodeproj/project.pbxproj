@@ -16,6 +16,14 @@
 		58B86C57282219B00040053B /* MyAddressBookKavsoftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C56282219B00040053B /* MyAddressBookKavsoftTests.swift */; };
 		58B86C61282219B00040053B /* MyAddressBookKavsoftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C60282219B00040053B /* MyAddressBookKavsoftUITests.swift */; };
 		58B86C63282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C62282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift */; };
+		58B86C7228221A440040053B /* CustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C7128221A440040053B /* CustViewModel.swift */; };
+		58B86C7428221EA30040053B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C7328221EA30040053B /* Home.swift */; };
+		58B86C7628221EB70040053B /* AddNewCust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C7528221EB70040053B /* AddNewCust.swift */; };
+		58B86C7A2822C3290040053B /* PickAddress01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C792822C3290040053B /* PickAddress01.swift */; };
+		58B86C7C2822C3320040053B /* PickAddress02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C7B2822C3320040053B /* PickAddress02.swift */; };
+		58B86C7E2822C33B0040053B /* PickAddress03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C7D2822C33B0040053B /* PickAddress03.swift */; };
+		58B86C822823EEC20040053B /* SellerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C812823EEC20040053B /* SellerViewModel.swift */; };
+		58B86C842823F2340040053B /* AddNewSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B86C832823F2340040053B /* AddNewSeller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,14 @@
 		58B86C5C282219B00040053B /* MyAddressBookKavsoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAddressBookKavsoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B86C60282219B00040053B /* MyAddressBookKavsoftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftUITests.swift; sourceTree = "<group>"; };
 		58B86C62282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressBookKavsoftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58B86C7128221A440040053B /* CustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustViewModel.swift; sourceTree = "<group>"; };
+		58B86C7328221EA30040053B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		58B86C7528221EB70040053B /* AddNewCust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCust.swift; sourceTree = "<group>"; };
+		58B86C792822C3290040053B /* PickAddress01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAddress01.swift; sourceTree = "<group>"; };
+		58B86C7B2822C3320040053B /* PickAddress02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAddress02.swift; sourceTree = "<group>"; };
+		58B86C7D2822C33B0040053B /* PickAddress03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAddress03.swift; sourceTree = "<group>"; };
+		58B86C812823EEC20040053B /* SellerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerViewModel.swift; sourceTree = "<group>"; };
+		58B86C832823F2340040053B /* AddNewSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSeller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,8 @@
 		58B86C3F282219AE0040053B /* MyAddressBookKavsoft */ = {
 			isa = PBXGroup;
 			children = (
+				58B86C6F282219D40040053B /* ViewModel */,
+				58B86C70282219DD0040053B /* View */,
 				58B86C40282219AE0040053B /* MyAddressBookKavsoftApp.swift */,
 				58B86C42282219AE0040053B /* ContentView.swift */,
 				58B86C44282219B00040053B /* Assets.xcassets */,
@@ -131,6 +149,28 @@
 				58B86C62282219B00040053B /* MyAddressBookKavsoftUITestsLaunchTests.swift */,
 			);
 			path = MyAddressBookKavsoftUITests;
+			sourceTree = "<group>";
+		};
+		58B86C6F282219D40040053B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C7128221A440040053B /* CustViewModel.swift */,
+				58B86C812823EEC20040053B /* SellerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		58B86C70282219DD0040053B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58B86C7328221EA30040053B /* Home.swift */,
+				58B86C7528221EB70040053B /* AddNewCust.swift */,
+				58B86C832823F2340040053B /* AddNewSeller.swift */,
+				58B86C792822C3290040053B /* PickAddress01.swift */,
+				58B86C7B2822C3320040053B /* PickAddress02.swift */,
+				58B86C7D2822C33B0040053B /* PickAddress03.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B86C7628221EB70040053B /* AddNewCust.swift in Sources */,
+				58B86C7A2822C3290040053B /* PickAddress01.swift in Sources */,
 				58B86C4A282219B00040053B /* Persistence.swift in Sources */,
+				58B86C822823EEC20040053B /* SellerViewModel.swift in Sources */,
+				58B86C7E2822C33B0040053B /* PickAddress03.swift in Sources */,
 				58B86C43282219AE0040053B /* ContentView.swift in Sources */,
+				58B86C7228221A440040053B /* CustViewModel.swift in Sources */,
+				58B86C842823F2340040053B /* AddNewSeller.swift in Sources */,
 				58B86C4D282219B00040053B /* MyAddressBookKavsoft.xcdatamodeld in Sources */,
+				58B86C7C2822C3320040053B /* PickAddress02.swift in Sources */,
+				58B86C7428221EA30040053B /* Home.swift in Sources */,
 				58B86C41282219AE0040053B /* MyAddressBookKavsoftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,7 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

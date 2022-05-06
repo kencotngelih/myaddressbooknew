@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cust" representedClassName="Cust" syncable="YES" codeGenerationType="class">
+        <attribute name="hp" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="recaddress01" optional="YES" attributeType="String"/>
+        <attribute name="recaddress02" optional="YES" attributeType="String"/>
+        <attribute name="recaddress03" optional="YES" attributeType="String"/>
+        <attribute name="rechp01" optional="YES" attributeType="String"/>
+        <attribute name="rechp02" optional="YES" attributeType="String"/>
+        <attribute name="rechp03" optional="YES" attributeType="String"/>
+        <attribute name="reclabel01" optional="YES" attributeType="String"/>
+        <attribute name="reclabel02" optional="YES" attributeType="String"/>
+        <attribute name="reclabel03" optional="YES" attributeType="String"/>
+        <attribute name="reclatlong01" optional="YES" attributeType="String"/>
+        <attribute name="reclatlong02" optional="YES" attributeType="String"/>
+        <attribute name="reclatlong03" optional="YES" attributeType="String"/>
+        <attribute name="recname01" optional="YES" attributeType="String"/>
+        <attribute name="recname02" optional="YES" attributeType="String"/>
+        <attribute name="recname03" optional="YES" attributeType="String"/>
+        <attribute name="recnote01" optional="YES" attributeType="String"/>
+        <attribute name="recnote02" optional="YES" attributeType="String"/>
+        <attribute name="recnote03" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Seller" representedClassName="Seller" syncable="YES" codeGenerationType="class">
+        <attribute name="selleraddress" optional="YES" attributeType="String"/>
+        <attribute name="sellerhp" optional="YES" attributeType="String"/>
+        <attribute name="sellerlatlong" optional="YES" attributeType="String"/>
+        <attribute name="sellername" optional="YES" attributeType="String"/>
+        <attribute name="sellernote" optional="YES" attributeType="String"/>
+        <attribute name="sellersegment" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="Cust" positionX="-36" positionY="9" width="128" height="329"/>
+        <element name="Seller" positionX="0" positionY="198" width="128" height="119"/>
     </elements>
 </model>
